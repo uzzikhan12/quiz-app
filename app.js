@@ -121,7 +121,6 @@ function setAnswer(x,y){
   }
   nextOpt();
 }
-
 function playAgain(){
   result.style.display = "none";
   main.style.display = "block"; 
