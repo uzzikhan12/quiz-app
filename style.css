@@ -41,7 +41,7 @@ h1{
 }
 
 .reset-btn{
-    width: 40%;
+    width: 25%;
 }
 
 .play-again{
@@ -79,4 +79,13 @@ h1{
     background-color: lightskyblue;
     color: black;
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    .opt-btn,.play-again,.reset-btn{
+        font-size: 1rem;
+    }
+    .reset-btn{
+        width: 50%;
+    }
 }
