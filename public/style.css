@@ -1,0 +1,91 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/2384075.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    width: 35vh;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#ques-box{
+    margin-top: 5vh; 
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.para-text{
+    color:black;
+    background-color:white;
+}
+
+.opt-btn , .reset-btn{
+    border-radius: 1.5rem;
+    border: none;
+    background-color:black;
+    padding:15px 5px;
+    overflow: initial;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    width: 70%;
+    display: inline-table;
+    color:white;
+    text-align: center;
+}
+
+.reset-btn{
+    width: 25%;
+}
+
+.play-again{
+    border-radius: 1.5rem;
+    border: none;
+    background-color:white;
+    padding:15px 5px;
+    overflow: initial;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    width: 50%;
+    display: inline-table;
+}
+
+.opt-btn:hover, .reset-btn:hover{
+    background-color:lightskyblue;
+    color:black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#lastResult{
+    margin-top: 35vh;
+    text-align: center;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    color: white;
+}
+
+.play-again:hover{
+    background-color: lightskyblue;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    .opt-btn,.play-again,.reset-btn{
+        font-size: 1rem;
+    }
+    .reset-btn{
+        width: 50%;
+    }
+}
