@@ -122,18 +122,14 @@ function setAnswer(x,y){
   nextOpt();
 }
 function playAgain(){
-  result.style.display = "none";
-  main.style.display = "block"; 
-  restartBtn();
-}
-
-function restartBtn(){
   index = 0;
   marks = 0
-  currQues.innerHTML = 1;
+  result.style.display = "none";
+  main.style.display = "block"; 
   displayFunc();
 }
 
-function resetGame(){
-  restartBtn();
+function nextBtn(){
+  nextOpt();
 }
+
